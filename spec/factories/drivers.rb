@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :driver do
-    name {"Dante"}
+    name { Faker::Name.name }
   end
 end

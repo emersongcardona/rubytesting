@@ -7,6 +7,7 @@ RSpec.describe Car do
         driver = build(:driver,)
         # car = Car.new(model: 2014, brand:"mazda", drivers_id: driver.id )
         car = build(:car, drivers_id: driver.id)
-        expect(car.model).to eq 2014
+        expect(car.brand).to be_instance_of(String)
+        # puts car.brand
     end
 end

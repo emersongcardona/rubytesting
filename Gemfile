@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.7'
 
 group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'faker'
   gem 'factory_bot_rails'
 end
 

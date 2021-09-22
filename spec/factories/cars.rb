@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :car do
-    model {2014}
-    brand {"mazda"}
+    model {Faker::Vehicle.year}
+    brand { Faker::Vehicle.manufacture }
 
   end
 end
